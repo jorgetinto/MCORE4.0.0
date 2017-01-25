@@ -1,0 +1,5 @@
+﻿$(function () {
+    MarcarParametroActual("CondicionPagos");
+
+    RefrescarListadoCondicionPagos();
+})

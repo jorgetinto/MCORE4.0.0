@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="contaider">
+    <div class="text-center topH2">
+        <h3>Panel Principal</h3>
+    </div>
+</div>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="alert alert-warning col-md-4 text-center InicioHeight col-md-offset-2 text-center ">
+            <a href="@Url.Action("Index", "PanelParametros")" class=" decorativeNone">
+                <span class="glyphicon glyphicon-cog gi-4x InicioMargenIcon"></span>
+                <h4 class="InicioMargenH4"><strong> Panel Par&aacute;metro</strong></h4>
+            </a>
+        </div>
+        <div class="alert alert-warning col-md-4 text-center InicioHeight col-md-offset-2 InicioMargenLeft text-center ">
+            <a href="#" class="decorativeNone">
+                <span class="glyphicon glyphicon-user gi-4x InicioMargenIcon"></span>
+                <h4 class="InicioMargenH4"><strong>Panel Persona</strong></h4>
+            </a>
+        </div>
+
+        @RenderBody()
+    </div>
+</div>

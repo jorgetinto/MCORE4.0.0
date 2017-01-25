@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Editar Parámetro Rol Persona";
+    Layout = "~/Views/Shared/PanelParametros/_ParametrosLayout.cshtml";
+}
+
+<script src="@Url.Content("~/Scripts/ActiveHelper/RolPersona.js")" type="text/javascript"></script>
+
+<div class="panel well bs-component">
+    <div class="panel-body ">
+        <div class="container-fluid">
+            <h4>Editar rol persona</h4>
+            <div class="row">
+                <div id="RolPersonaEdit">
+                    @Html.Partial("~/Views/Shared/RolPersonas/_Edit.cshtml", ViewBag.RolPersona as Llacruz.Cobranza.Core.Application.Dto.PanelParametros.RolPersonaDto)
+                </div>
+                <div class="col-md-12">
+                    <hr />
+                </div>
+                <div class="col-md-12" id="RolPersonaList">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

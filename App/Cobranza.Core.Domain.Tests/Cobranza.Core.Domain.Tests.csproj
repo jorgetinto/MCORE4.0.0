@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA157117-F8E4-4720-A6F5-55339959E272}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cobranza.Core.Domain.Tests</RootNamespace>
+    <AssemblyName>Cobranza.Core.Domain.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="ProcesoCargaModule\MetaArchivoValidatorTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProcesoCargaModule\MetaArchivoValidationSpecificationsTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cobranza.Core.Domain.Seedwork\Cobranza.Core.Domain.Seedwork.csproj">
+      <Project>{5a14a1fb-350c-432f-b5e3-778607ced0dd}</Project>
+      <Name>Cobranza.Core.Domain.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Domain\Cobranza.Core.Domain.csproj">
+      <Project>{88dca67c-b827-4312-b97b-bce5265f8882}</Project>
+      <Name>Cobranza.Core.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.csproj">
+      <Project>{49316bf5-e7fc-4e5f-a54a-4d5482073c02}</Project>
+      <Name>Cobranza.Core.Infrastructure.Crosscutting.NetFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.csproj">
+      <Project>{02745211-f118-4833-8a60-cbab49cc1c47}</Project>
+      <Name>Cobranza.Core.Infrastructure.Crosscutting.Seedwork</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Comparers\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="ObjectMother\" />
+    <Folder Include="TestDataBuilders\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Crear Parámetro Condición de Pago";
+    Layout = "~/Views/Shared/PanelParametros/_ParametrosLayout.cshtml";
+}
+
+<script src="@Url.Content("~/Scripts/ActiveHelper/CondicionPago.js")" type="text/javascript"></script>
+
+<div class="panel well bs-component" id="NuevaCondicionPagos">
+    <div class="panel-body">
+        <div class="container-fluid">
+            <h4>Nueva Condici&oacute;n de Pago</h4>
+            <div class="row">
+                <div id="CondicionPagosCreate">
+                    @Html.Partial("~/Views/Shared/CondicionPagos/_Create.cshtml")
+                </div>
+                <div class="col-md-12">
+                    <hr />
+                </div>
+                <div class="col-md-12" id="CondicionPagosList">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

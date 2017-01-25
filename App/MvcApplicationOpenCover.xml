@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="FC-91-39-F3-3E-82-BB-89-56-F7-CB-FA-B2-11-1B-41-34-CB-54-10">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="29-BC-32-15-21-E8-F9-6D-87-31-AF-AD-0B-21-31-A6-BB-2F-E4-00">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\nunit-agent-x86.exe</ModulePath>
+      <ModuleTime>2016-11-21T14:22:12.2890036Z</ModuleTime>
+      <ModuleName>nunit-agent-x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="36-B9-FF-C0-07-EA-59-4D-23-2E-FD-CD-5A-45-CF-C0-2C-42-2A-98">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\lib\nunit.core.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:22:15.2641738Z</ModuleTime>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="14-C3-4B-3E-39-7A-EE-C0-B9-2F-83-44-2F-04-8A-F7-48-7B-67-DE">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\lib\nunit.util.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:22:14.7071419Z</ModuleTime>
+      <ModuleName>nunit.util</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5E-95-A6-AD-88-48-98-B1-62-7F-4E-5A-C1-0E-F3-B7-85-56-44-E8">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\lib\nunit.core.interfaces.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:22:14.6891409Z</ModuleTime>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="88-E1-1C-E3-0E-FE-E7-69-52-A3-00-5A-EA-ED-30-4C-18-3A-6C-29">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="20-CB-39-CE-43-33-CD-D0-45-8A-27-D2-2E-2F-D6-5B-08-94-D5-8F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-7D-13-34-38-47-6A-D8-A6-85-0A-2A-97-3C-93-B2-CD-20-01-5F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-4D-1E-C1-42-58-82-DB-9B-6F-39-58-9C-69-8D-9B-E5-A2-10-98">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D3-F2-A9-08-1D-CF-08-A6-83-85-71-9A-E7-DE-F3-69-E9-F7-B7-CA">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="36-B9-FF-C0-07-EA-59-4D-23-2E-FD-CD-5A-45-CF-C0-2C-42-2A-98">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\lib\nunit.core.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:22:15.2641738Z</ModuleTime>
+      <ModuleName>nunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="88-E1-1C-E3-0E-FE-E7-69-52-A3-00-5A-EA-ED-30-4C-18-3A-6C-29">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="53-25-23-C6-63-70-35-C6-0C-82-04-1A-0A-BF-1A-E7-1F-EA-74-A3">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\pnunit.framework.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:22:12.2860034Z</ModuleTime>
+      <ModuleName>pnunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="21-69-E9-47-C6-F8-02-12-31-E6-18-DE-8E-43-24-C9-AB-F7-C2-BE">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\pnunit-agent.exe</ModulePath>
+      <ModuleTime>2016-11-21T14:22:12.2880035Z</ModuleTime>
+      <ModuleName>pnunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5E-95-A6-AD-88-48-98-B1-62-7F-4E-5A-C1-0E-F3-B7-85-56-44-E8">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\lib\nunit.core.interfaces.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:22:14.6891409Z</ModuleTime>
+      <ModuleName>nunit.core.interfaces</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AE-C6-8E-A6-12-B2-A8-B7-AD-D1-46-87-0F-F7-C9-2A-84-BF-54-E9">
+      <ModulePath>C:\MCORE4.0.0\App\Cobranza.Core.MvcApplication.Tests\bin\Debug\Cobranza.Core.MvcApplication.Tests.dll</ModulePath>
+      <ModuleTime>2016-12-01T12:56:38.8221336Z</ModuleTime>
+      <ModuleName>Cobranza.Core.MvcApplication.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A2-D0-DB-C9-20-FB-37-90-D4-D6-25-E5-C4-7B-E0-42-CA-32-C0-51">
+      <ModulePath>C:\MCORE4.0.0\App\Cobranza.Core.MvcApplication.Tests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:21:59.3942661Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-ED-FF-09-01-C9-D7-BC-29-AC-A6-93-C5-97-8A-0D-43-DD-8D-F2">
+      <ModulePath>C:\MCORE4.0.0\Dependencies\NUnit-2.6.4\bin\lib\nunit-console-runner.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:22:15.2621737Z</ModuleTime>
+      <ModuleName>nunit-console-runner</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="20-CB-39-CE-43-33-CD-D0-45-8A-27-D2-2E-2F-D6-5B-08-94-D5-8F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2F-7D-13-34-38-47-6A-D8-A6-85-0A-2A-97-3C-93-B2-CD-20-01-5F">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E5-4D-1E-C1-42-58-82-DB-9B-6F-39-58-9C-69-8D-9B-E5-A2-10-98">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1C-D5-08-6A-7E-39-6B-88-FC-93-DC-DB-15-42-4C-4D-FF-0C-A4-6A">
+      <ModulePath>C:\MCORE4.0.0\App\Cobranza.Core.MvcApplication.Tests\bin\Debug\WatiN.Core.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:21:36.0239294Z</ModuleTime>
+      <ModuleName>WatiN.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BF-9A-90-3E-14-C3-C9-D3-D4-95-C3-F9-0A-78-5B-74-AC-F4-7D-8D">
+      <ModulePath>C:\MCORE4.0.0\App\Cobranza.Core.MvcApplication.Tests\bin\Debug\Interop.SHDocVw.dll</ModulePath>
+      <ModuleTime>2016-11-21T14:21:36.0249294Z</ModuleTime>
+      <ModuleName>Interop.SHDocVw</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F0-3A-C9-74-72-AD-EF-D0-F6-0B-76-79-F4-D6-B3-90-0E-45-6A-BC">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Drawing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4E-B5-02-64-61-58-B7-F4-91-D6-63-13-3A-8E-B0-BF-64-3E-1E-5D">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Windows.Forms</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B9-00-44-DD-D3-54-4E-3D-E9-A9-1D-EB-A5-50-32-9F-A5-02-BD-63">
+      <ModulePath>C:\Windows\assembly\GAC\Microsoft.mshtml\7.0.3300.0__b03f5f7f11d50a3a\Microsoft.mshtml.dll</ModulePath>
+      <ModuleTime>2015-05-05T20:06:26.6777133Z</ModuleTime>
+      <ModuleName>Microsoft.mshtml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B5-82-D8-30-55-BB-B2-1D-5B-18-8D-31-91-07-80-97-66-77-F7-F2">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_32\CustomMarshalers\v4.0_4.0.0.0__b03f5f7f11d50a3a\CustomMarshalers.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>CustomMarshalers</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="24-C5-37-06-22-07-B7-4C-91-22-CC-AD-F3-D8-3C-92-47-66-A0-88">
+      <ModulePath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2014-04-12T04:48:40Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

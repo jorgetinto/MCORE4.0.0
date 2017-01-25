@@ -1,0 +1,8 @@
+C:\MCORE4.0.0\App\Cobranza.Core.Application.Dto\bin\Debug\Cobranza.Core.Application.Dto.dll
+C:\MCORE4.0.0\App\Cobranza.Core.Application.Dto\bin\Debug\Cobranza.Core.Application.Dto.pdb
+C:\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Application.Dto.dll
+C:\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Application.Dto.pdb
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\bin\Debug\Cobranza.Core.Application.Dto.dll
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\bin\Debug\Cobranza.Core.Application.Dto.pdb
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Application.Dto.dll
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Application.Dto.pdb

@@ -1,0 +1,96 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script type="text/javascript">
+    var urlRubroList = "@Url.Action("List", "Rubros")";
+
+    var urlCondicionPagoList = "@Url.Action("List", "CondicionPagos")";
+
+    var urlRolPersonaList = "@Url.Action("List", "RolPersonas")";
+
+    var urlPaisList = "@Url.Action("List", "Paises")";
+
+    var urlTipoIdPersonaList = "@Url.Action("List", "TipoIdentificadorPersonas")";
+
+    var urlRegionList = "@Url.Action("List", "Regiones")";
+
+    var urlComunaList = "@Url.Action("List", "Comunas")";
+
+    var urlComunaList = "@Url.Action("List", "Comunas")";
+
+    var urlParametroList = "@Url.Action("List", "Parametros")";
+</script>
+
+<script src="@Url.Content("~/Scripts/Shared/PanelParametros/_ParametrosLayout.js")" type="text/javascript"></script>
+
+<div class="contaider">
+
+    <div class="text-center topH2 col-md-10">
+        <div class="col-md-1">
+            <a href="@Url.Action("index", "Inicio")" class=" btn btn-primary btn-block" data-toggle="tooltip" title="Volver a inicio" data-placement="bottom">
+                <span class="glyphicon glyphicon-home"></span>
+            </a>
+        </div>
+            <h3>Panel Parámetros</h3>        
+    </div>
+</div>
+<hr />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3" id="ParametroList">
+            @Html.Partial("~/views/shared/PanelParametros/_ParametrosSideBar.cshtml")
+        </div>
+        <div class="col-md-9">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="ModalOK" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title text-center" id="Titulo"></h4>
+            </div>
+            <div class="modal-body text-center col-sm-12">
+                <span class="glyphicon glyphicon-ok gi-3x" aria-hidden="true"></span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="ModalError" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title text-center" id="TituloError"></h4>
+            </div>
+            <div class="modal-body text-center col-sm-12">
+                <span class="glyphicon glyphicon-remove gi-3x" aria-hidden="true"></span>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-block" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="basic" tabindex="-1" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title text-center">¿Desea eliminar este dato?</h4>
+            </div>
+            <div class="modal-footer">
+                <div class="col-sm-1"></div>
+                <button data-dismiss="modal" type="button" class="btn btn-default col-sm-5">Cancel</button>
+                <button id="btnContinueDelete" type="button" class="btn btn-warning col-sm-5">Eliminar</button>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </div>
+</div>

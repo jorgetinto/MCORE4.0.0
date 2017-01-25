@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88DCA67C-B827-4312-B97B-BCE5265F8882}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cobranza.Core.Domain</RootNamespace>
+    <AssemblyName>Cobranza.Core.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Helpers\RutHelper.cs" />
+    <Compile Include="PanelParametros\Aggregates\ComunaAgg\Comuna.cs" />
+    <Compile Include="PanelParametros\Aggregates\ComunaAgg\IComunaRepository.cs" />
+    <Compile Include="PanelParametros\Aggregates\ComunaAgg\QuerySpecifications\IsDefaultSpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\ComunaAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\CondicionPagoAgg\CondicionPago.cs" />
+    <Compile Include="PanelParametros\Aggregates\CondicionPagoAgg\ICondicionPagoRepository.cs" />
+    <Compile Include="PanelParametros\Aggregates\CondicionPagoAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\PaisAgg\IPaisRepository.cs" />
+    <Compile Include="PanelParametros\Aggregates\PaisAgg\Pais.cs" />
+    <Compile Include="PanelParametros\Aggregates\PaisAgg\QuerySpecifications\IsDefaultSpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\PaisAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\ParametroAgg\IParametroRepository.cs" />
+    <Compile Include="PanelParametros\Aggregates\ParametroAgg\Parametro.cs" />
+    <Compile Include="PanelParametros\Aggregates\ParametroAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\RegionAgg\IRegionRepository.cs" />
+    <Compile Include="PanelParametros\Aggregates\RegionAgg\QuerySpecifications\IsDefaultSpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\RegionAgg\QuerySpecifications\PaisSpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\RegionAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\RegionAgg\Region.cs" />
+    <Compile Include="PanelParametros\Aggregates\RolPersonaAgg\IRolPersonaRepository.cs" />
+    <Compile Include="PanelParametros\Aggregates\RolPersonaAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\RolPersonaAgg\RolPersona.cs" />
+    <Compile Include="PanelParametros\Aggregates\RubroAgg\IRubroRepository.cs" />
+    <Compile Include="PanelParametros\Aggregates\RubroAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\RubroAgg\Rubro.cs" />
+    <Compile Include="PanelParametros\Aggregates\TipoIdentificadorPersonaAgg\ITipoIdentificadorPersonaRepository.cs" />
+    <Compile Include="PanelParametros\Aggregates\TipoIdentificadorPersonaAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="PanelParametros\Aggregates\TipoIdentificadorPersonaAgg\TipoIdentificadorPersona.cs" />
+    <Compile Include="Personas\Aggregates\IdentificadorPersonaAgg\IdentificadorPersona.cs" />
+    <Compile Include="Personas\Aggregates\PersonaAgg\Persona.cs" />
+    <Compile Include="Personas\Aggregates\PersonaAgg\PersonaJuridica.cs" />
+    <Compile Include="Personas\Aggregates\PersonaAgg\PersonaNatural.cs" />
+    <Compile Include="Personas\Aggregates\RolPersonaEmpresaCobranzaAgg\RolPersonaEmpresaCobranza.cs" />
+    <Compile Include="Personas\Aggregates\TipoPersonaAgg\TipoPersona.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\IMetaArchivoValidator.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\IMetaArchivoRepository.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\QuerySpecifications\ActiveSpecification.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\ValidationSpecifications\MetaArchivoDuplicatedSpecification.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\ValidationSpecifications\InitDateGreaterThanSpecification.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\MetaArchivo.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\MetaArchivoValidator.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\Services\IMetaArchivoDomainService.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\Services\MetaArchivoDomainService.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\QuerySpecifications\CustomerSpecification.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\QuerySpecifications\NameSpecification.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\QuerySpecifications\PrimaryKeySpecification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\ValidationSpecifications\HasKeyFieldSpecification.cs" />
+    <Compile Include="ProcesoCargaModule\Aggregates\MetaArchivoAgg\ValidationSpecifications\HasFieldsConfiguratedSpecification.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cobranza.Core.Domain.Seedwork\Cobranza.Core.Domain.Seedwork.csproj">
+      <Project>{5a14a1fb-350c-432f-b5e3-778607ced0dd}</Project>
+      <Name>Cobranza.Core.Domain.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.csproj">
+      <Project>{49316bf5-e7fc-4e5f-a54a-4d5482073c02}</Project>
+      <Name>Cobranza.Core.Infrastructure.Crosscutting.NetFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.csproj">
+      <Project>{02745211-f118-4833-8a60-cbab49cc1c47}</Project>
+      <Name>Cobranza.Core.Infrastructure.Crosscutting.Seedwork</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

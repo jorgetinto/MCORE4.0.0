@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Parámetro Tipo Identificador Persona Editar";
+    Layout = "~/Views/Shared/PanelParametros/_ParametrosLayout.cshtml";
+}
+
+<script src="@Url.Content("~/Scripts/ActiveHelper/TipoIdentificadorPersona.js")" type="text/javascript"></script>
+
+<div class="panel well bs-component">
+    <div class="panel-body ">
+        <div class="container-fluid">
+            <h4>Editar Rubro</h4>
+            <div class="row">
+                <div id="TipoIdentificadorPersonaEdit">
+                    @Html.Partial("~/Views/Shared/TipoIdentificadorPersonas/_Edit.cshtml", ViewBag.TipoIdentificadorPersona as Cobranza.Core.Application.Dto.PanelParametros.TipoIdentificadorPersonaDto)
+                </div>
+                <div class="col-md-12">
+                    <hr />
+                </div>
+                <div class="col-md-12" id="TipoIdentificadorPersonaList">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8818BE0-C787-4386-8B0A-08FAEDA7E29B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cobranza.Core.DependencyResolution</RootNamespace>
+    <AssemblyName>Cobranza.Core.DependencyResolution</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Munq.IocContainer">
+      <HintPath>..\packages\Munq.IocContainer.3.1.6\Lib\Munq.IocContainer.dll</HintPath>
+    </Reference>
+    <Reference Include="Munq.MVC3">
+      <HintPath>..\packages\Munq.MVC3.3.1.5\Lib\Munq.MVC3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\MVC4\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebActivator">
+      <HintPath>..\packages\WebActivator.1.4.4\lib\net40\WebActivator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="DependencyResolver.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebServices\MunqInstanceProvider.cs" />
+    <Compile Include="WebServices\MunqInstanceProviderExtensionElement.cs" />
+    <Compile Include="WebServices\MunqServiceBehavior.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cobranza.Core.Application\Cobranza.Core.Application.csproj">
+      <Project>{0618c481-881f-4736-98c4-98a6f284c377}</Project>
+      <Name>Cobranza.Core.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Domain.Seedwork\Cobranza.Core.Domain.Seedwork.csproj">
+      <Project>{5a14a1fb-350c-432f-b5e3-778607ced0dd}</Project>
+      <Name>Cobranza.Core.Domain.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Domain\Cobranza.Core.Domain.csproj">
+      <Project>{88dca67c-b827-4312-b97b-bce5265f8882}</Project>
+      <Name>Cobranza.Core.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.csproj">
+      <Project>{49316bf5-e7fc-4e5f-a54a-4d5482073c02}</Project>
+      <Name>Cobranza.Core.Infrastructure.Crosscutting.NetFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.csproj">
+      <Project>{02745211-f118-4833-8a60-cbab49cc1c47}</Project>
+      <Name>Cobranza.Core.Infrastructure.Crosscutting.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Data.Seedwork\Cobranza.Core.Infrastructure.Data.Seedwork.csproj">
+      <Project>{61de3cc2-e22b-47d9-ae46-47a28bf859a7}</Project>
+      <Name>Cobranza.Core.Infrastructure.Data.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Data\Cobranza.Core.Infrastructure.Data.csproj">
+      <Project>{0fa44ddc-7461-4f9f-adfa-a8898288f476}</Project>
+      <Name>Cobranza.Core.Infrastructure.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

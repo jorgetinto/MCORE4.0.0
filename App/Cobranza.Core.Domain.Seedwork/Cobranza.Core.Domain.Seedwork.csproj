@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A14A1FB-350C-432F-B5E3-778607CED0DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cobranza.Core.Domain.Seedwork</RootNamespace>
+    <AssemblyName>Cobranza.Core.Domain.Seedwork</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="IRepository.cs" />
+    <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyNotFoundException.cs" />
+    <Compile Include="QuerySpecifications\AndSpecification.cs" />
+    <Compile Include="QuerySpecifications\CompositeSpecificationBase.cs" />
+    <Compile Include="QuerySpecifications\DirectSpecification.cs" />
+    <Compile Include="QuerySpecifications\ExpressionBuilder.cs" />
+    <Compile Include="QuerySpecifications\ISpecification.cs" />
+    <Compile Include="QuerySpecifications\NotSpecification.cs" />
+    <Compile Include="QuerySpecifications\OrSpecification.cs" />
+    <Compile Include="QuerySpecifications\ParametersRebinder.cs" />
+    <Compile Include="QuerySpecifications\SpecificationBase.cs" />
+    <Compile Include="QuerySpecifications\TrueSpecification.cs" />
+    <Compile Include="ValidationSpecifications\AndSpecification.cs" />
+    <Compile Include="ValidationSpecifications\CompositeSpecificationBase.cs" />
+    <Compile Include="ValidationSpecifications\EqualsSpecification.cs" />
+    <Compile Include="ValidationSpecifications\GreaterThanSpecification.cs" />
+    <Compile Include="ValidationSpecifications\ICompositeSpecification.cs" />
+    <Compile Include="ValidationSpecifications\ISpecification.cs" />
+    <Compile Include="ValidationSpecifications\IValueBoundSpecification.cs" />
+    <Compile Include="ValidationSpecifications\LessThanSpecification.cs" />
+    <Compile Include="ValidationSpecifications\NotSpecification.cs" />
+    <Compile Include="ValidationSpecifications\NullSpecification.cs" />
+    <Compile Include="ValidationSpecifications\OrSpecification.cs" />
+    <Compile Include="ValidationSpecifications\SpecificationBase.cs" />
+    <Compile Include="ValidationSpecifications\ValueBoundSpecificationBase.cs" />
+    <Compile Include="Validator\IEntityValidator.cs" />
+    <Compile Include="ValueObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.csproj">
+      <Project>{02745211-f118-4833-8a60-cbab49cc1c47}</Project>
+      <Name>Cobranza.Core.Infrastructure.Crosscutting.Seedwork</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

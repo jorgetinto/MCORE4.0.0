@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\MCORE4.0.0\App\Cobranza.Core.MvcApplication.Tests\bin\Debug\Cobranza.Core.MvcApplication.Tests.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-12-01" time="11:01:08">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5420" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\MCORE4.0.0\App" machine-name="WSINFDES001" user="jpino" user-domain="LLACRUZ" />
+  <culture-info current-culture="es-CL" current-uiculture="es-ES" />
+  <test-suite type="Assembly" name="C:\MCORE4.0.0\App\Cobranza.Core.MvcApplication.Tests\bin\Debug\Cobranza.Core.MvcApplication.Tests.dll" executed="True" result="Success" success="True" time="2.387" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="" executed="True" result="Success" success="True" time="2.382" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Cobranza" executed="True" result="Success" success="True" time="2.382" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="2.382" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="MvcApplication" executed="True" result="Success" success="True" time="2.382" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="2.381" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="UITests" executed="True" result="Success" success="True" time="2.381" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="MetaArchivosSmokeTests" executed="True" result="Success" success="True" time="2.380" asserts="0">
+                                <properties>
+                                  <property name="APARTMENT_STATE" value="STA" />
+                                </properties>
+                                <results>
+                                  <test-case name="Cobranza.Core.MvcApplication.Tests.UITests.MetaArchivosSmokeTests.ShouldVerifyLoadedCustomers" executed="True" result="Success" success="True" time="2.362" asserts="2" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

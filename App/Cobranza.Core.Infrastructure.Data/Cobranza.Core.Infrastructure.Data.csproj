@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FA44DDC-7461-4F9F-ADFA-A8898288F476}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cobranza.Core.Infrastructure.Data</RootNamespace>
+    <AssemblyName>Cobranza.Core.Infrastructure.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="PanelParametros\Repositories\ComunaRepository.cs" />
+    <Compile Include="PanelParametros\Repositories\CondicionPagoRepository.cs" />
+    <Compile Include="PanelParametros\Repositories\PaisRepository.cs" />
+    <Compile Include="PanelParametros\Repositories\ParametroRepository.cs" />
+    <Compile Include="PanelParametros\Repositories\RegionRepository.cs" />
+    <Compile Include="PanelParametros\Repositories\RolPersonaRepository.cs" />
+    <Compile Include="PanelParametros\Repositories\RubroRepository.cs" />
+    <Compile Include="PanelParametros\Repositories\TipoIdentificadorPersonaRepository.cs" />
+    <Compile Include="UnitOfWork\Mapping\ComunaMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\CondicionPagoMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\IdentificadorPersonaMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\PaisMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\ParametroMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\PersonaJuridicaMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\PersonaMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\PersonaNaturalMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\RegionMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\RolPersonaEmpresaCobranzaMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\RolPersonaMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\RubroMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\TipoIdentificadorPersonaMap.cs" />
+    <Compile Include="UnitOfWork\Mapping\TipoPersonaMap.cs" />
+    <Compile Include="UnitOfWork\CoreUnitOfWork.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProcesoCargaModule\Repositories\MetaArchivoRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cobranza.Core.Domain.Seedwork\Cobranza.Core.Domain.Seedwork.csproj">
+      <Project>{5a14a1fb-350c-432f-b5e3-778607ced0dd}</Project>
+      <Name>Cobranza.Core.Domain.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Domain\Cobranza.Core.Domain.csproj">
+      <Project>{88dca67c-b827-4312-b97b-bce5265f8882}</Project>
+      <Name>Cobranza.Core.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.csproj">
+      <Project>{02745211-f118-4833-8a60-cbab49cc1c47}</Project>
+      <Name>Cobranza.Core.Infrastructure.Crosscutting.Seedwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cobranza.Core.Infrastructure.Data.Seedwork\Cobranza.Core.Infrastructure.Data.Seedwork.csproj">
+      <Project>{61de3cc2-e22b-47d9-ae46-47a28bf859a7}</Project>
+      <Name>Cobranza.Core.Infrastructure.Data.Seedwork</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

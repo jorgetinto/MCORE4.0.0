@@ -1,0 +1,16 @@
+C:\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Domain.Seedwork.dll.config
+C:\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Domain.Seedwork.dll
+C:\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Domain.Seedwork.pdb
+C:\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
+C:\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
+C:\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\obj\Debug\Cobranza.Core.Domain.Seedwork.csprojResolveAssemblyReference.cache
+C:\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\obj\Debug\Cobranza.Core.Domain.Seedwork.dll
+C:\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\obj\Debug\Cobranza.Core.Domain.Seedwork.pdb
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Domain.Seedwork.dll.config
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Domain.Seedwork.dll
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Domain.Seedwork.pdb
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\obj\Debug\Cobranza.Core.Domain.Seedwork.csprojResolveAssemblyReference.cache
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\obj\Debug\Cobranza.Core.Domain.Seedwork.dll
+C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Domain.Seedwork\obj\Debug\Cobranza.Core.Domain.Seedwork.pdb

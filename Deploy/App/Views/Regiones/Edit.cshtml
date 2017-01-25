@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Editar Parámetro País ";
+    Layout = "~/Views/Shared/PanelParametros/_ParametrosLayout.cshtml";
+}
+
+<script src="@Url.Content("~/Scripts/ActiveHelper/Region.js")" type="text/javascript"></script>
+
+<div class="panel well bs-component">
+    <div class="panel-body ">
+        <div class="container-fluid">
+            <h4>Editar Regi&oacute;n</h4>
+            <div class="row">
+                <div id="RegionEdit">
+                    @Html.Partial("~/Views/Shared/Regiones/_Edit.cshtml", ViewBag.Region as Llacruz.Cobranza.Core.Application.Dto.PanelParametros.RegionDto)
+                </div>
+                <div class="col-md-12">
+                    <hr />
+                </div>
+                <div class="col-md-12" id="RegionList">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
