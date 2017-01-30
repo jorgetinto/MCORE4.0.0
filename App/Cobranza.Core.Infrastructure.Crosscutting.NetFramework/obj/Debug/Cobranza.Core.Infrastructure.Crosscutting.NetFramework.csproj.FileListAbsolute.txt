@@ -26,17 +26,3 @@ C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Cr
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.csprojResolveAssemblyReference.cache
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.dll
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.pdb
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.dll
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.pdb
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\FastMember.dll
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\NLog.dll
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\Omu.ValueInjecter.dll
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\FastMember.pdb
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\FastMember.xml
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\NLog.xml
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\bin\Debug\Omu.ValueInjecter.xml
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.csprojResolveAssemblyReference.cache
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.dll
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.NetFramework\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.NetFramework.pdb
