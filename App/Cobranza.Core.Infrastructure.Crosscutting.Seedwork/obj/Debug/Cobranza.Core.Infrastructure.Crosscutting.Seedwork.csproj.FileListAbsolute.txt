@@ -4,6 +4,5 @@ C:\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\C
 C:\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.csprojResolveAssemblyReference.cache
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb

@@ -4,6 +4,5 @@ C:\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.App
 C:\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.Application.Seedwork.pdb
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\bin\Debug\Cobranza.Core.Application.Seedwork.dll
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\bin\Debug\Cobranza.Core.Application.Seedwork.pdb
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.Application.Seedwork.csprojResolveAssemblyReference.cache
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.Application.Seedwork.dll
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.Application.Seedwork.pdb

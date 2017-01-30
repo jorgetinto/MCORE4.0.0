@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Llacruz.Cobranza.Core.Application.Dto.PanelParametros.RolPersonaDto>
+﻿@model IEnumerable<Cobranza.Core.Application.Dto.PanelParametros.RolPersonaDto>
 
 <div class="panel panel-default">
     <div class="panel-heading">Listado de roles de personas</div>
@@ -45,10 +45,6 @@
             </div>
     </div>
 </div>
-
-<script type="text/javascript">
-    var urlDataTableSpanish = "@Url.Content("~/Content/dataTable.Spanish.js")";
-</script>
 
 <script type="text/javascript">
     var urlRolDelete = "@Url.Action("Delete", "RolPersonas")";

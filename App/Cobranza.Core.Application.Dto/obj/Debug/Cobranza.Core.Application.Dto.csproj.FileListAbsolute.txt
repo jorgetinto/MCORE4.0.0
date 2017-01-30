@@ -4,6 +4,5 @@ C:\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Applicat
 C:\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Application.Dto.pdb
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\bin\Debug\Cobranza.Core.Application.Dto.dll
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\bin\Debug\Cobranza.Core.Application.Dto.pdb
-D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Application.Dto.csprojResolveAssemblyReference.cache
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Application.Dto.dll
 D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Dto\obj\Debug\Cobranza.Core.Application.Dto.pdb

@@ -8,7 +8,7 @@
                     <thead>
                         <tr>
                             <th>Pa&iacute;s</th>
-                            <th>Identificador de Regi&oacute;n</th>
+                            <th>Identificador</th>
                             <th>Nombre</th>
                             <th>Es por defecto</th>
                             <th>Acciones</th>
@@ -28,8 +28,8 @@
                             {
                                 <tr>
                                     <td>@item.NombrePais</td>
-                                    <td>@item.IdRegion</td>
-                                    <td>@item.Nombre</td>
+                                    <td class="wrapTextTd">@item.IdRegion</td>
+                                    <td class ="wrapTextTd">@item.Nombre</td>
                                     <td>@(item.EsDefault ? "SI" : "NO")</td>
                                     <td class="text-center">
                                         <a href="@Url.Action("Edit", "Regiones", new { IdRegion = item.IdRegion })" class="btn btn-default btn-sm">
@@ -54,9 +54,6 @@
     </div>
 </div>
 
-<script type="text/javascript">
-    var urlDataTableSpanish = "@Url.Content("~/Content/dataTable.Spanish.js")";
-</script>
 <script type="text/javascript">
     var urlRegionDelete = "@Url.Action("Delete", "Regiones")";
 </script>

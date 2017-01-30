@@ -1,4 +1,4 @@
-﻿@using Llacruz.Cobranza.Core.Application.Dto.PanelParametros
+﻿@using Cobranza.Core.Application.Dto.PanelParametros
 @model RegionDto
 
 @{
@@ -14,21 +14,21 @@
                                              "CodigoPais",
                                              "Nombre"),
                                  "-- Seleccione --",
-                                 new { @class = "form-control", disabled = "disabled", })
+                                          new { @class = "form-control input-sm", disabled = "disabled", })
         @Html.ValidationMessageFor(m => m.CodigoPais, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
 </div>
 <div class="form-group">
     <div class="col-sm-12">
         @Html.LabelFor(m => m.IdRegion)
-        @Html.TextBoxFor(m => m.IdRegion, new { @class = "form-control", disabled = "disabled", maxlength = "8" })
+        @Html.TextBoxFor(m => m.IdRegion, new { @class = "form-control input-sm", disabled = "disabled", maxlength = "8" })
         @Html.ValidationMessageFor(m => m.IdRegion, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
 </div>
 <div class="form-group">
     <div class="col-sm-12">
         @Html.LabelFor(m => m.Nombre)
-        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", maxlength = "100" })
+        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control input-sm", maxlength = "100" })
         @Html.ValidationMessageFor(m => m.Nombre, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
 </div>

@@ -16,28 +16,28 @@
                                         "CodigoPais",
                                         "Nombre", paisDefault != null ? paisDefault.CodigoPais : null),
                                  "-- Seleccione --",
-                                 new { @class = "form-control" })
+                                          new { @class = "form-control input-sm" })
         @Html.ValidationMessageFor(m => m.CodigoPais, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
 </div>
 <div class="form-group">
     <div class="col-sm-12">
         @Html.LabelFor(m => m.IdTipoIdentificadorPersona)
-        @Html.TextBoxFor(m => m.IdTipoIdentificadorPersona, new { @class = "form-control", maxlength = "8" })
+        @Html.TextBoxFor(m => m.IdTipoIdentificadorPersona, new { @class = "form-control input-sm", maxlength = "8" })
         @Html.ValidationMessageFor(m => m.IdTipoIdentificadorPersona, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
 </div>
 <div class="form-group">
     <div class="col-sm-12">
         @Html.LabelFor(m => m.Nombre)
-        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", maxlength = "100" })
+        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control input-sm", maxlength = "100" })
         @Html.ValidationMessageFor(m => m.Nombre, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
 </div>
 <div class="form-group">
     <div class="col-sm-12">
         @Html.LabelFor(m => m.Descripcion)
-        @Html.TextBoxFor(m => m.Descripcion, new { @class = "form-control", maxlength = "100" })
+        @Html.TextBoxFor(m => m.Descripcion, new { @class = "form-control input-sm", maxlength = "100" })
         @Html.ValidationMessageFor(m => m.Descripcion, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
 </div>

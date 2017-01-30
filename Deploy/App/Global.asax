@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Llacruz.Cobranza.Core.MvcApplication.MvcApplication" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Cobranza.Core.MvcApplication.MvcApplication" Language="C#" %>

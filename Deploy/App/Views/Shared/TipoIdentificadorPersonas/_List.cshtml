@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Llacruz.Cobranza.Core.Application.Dto.PanelParametros.TipoIdentificadorPersonaDto>
+﻿@model IEnumerable<Cobranza.Core.Application.Dto.PanelParametros.TipoIdentificadorPersonaDto>
 
 <div class="panel panel-default">
     <div class="panel-heading">Listado de tipos de roles de personas</div>
@@ -56,9 +56,6 @@
     </div>
 </div>
 
-<script type="text/javascript">
-    var urlDataTableSpanish = "@Url.Content("~/Content/dataTable.Spanish.js")";
-</script>
 <script type="text/javascript">
     var urlTipoIdPersonaDelete = "@Url.Action("Delete", "TipoIdentificadorPersonas")";
 </script>

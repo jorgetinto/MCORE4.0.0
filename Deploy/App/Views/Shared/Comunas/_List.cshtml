@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Llacruz.Cobranza.Core.Application.Dto.PanelParametros.ComunaDto>
+﻿@model IEnumerable<Cobranza.Core.Application.Dto.PanelParametros.ComunaDto>
 
 <div class="panel panel-default">
     <div class="panel-heading">Listado de rubros</div>
@@ -29,9 +29,9 @@
                             {
                                 <tr>
                                     <td>@item.NombrePais</td>
-                                    <td>@item.NombreRegion</td>
+                                    <td class="wrapTextTd">@item.NombreRegion</td>
                                     <td>@item.IdComuna</td>
-                                    <td>@item.Nombre</td>
+                                    <td class="wrapTextTd">@item.Nombre</td>
                                     <td>@(item.EsDefault ? "SI" : "NO")</td>
                                     <td class="text-center">
                                         <a href="@Url.Action("Edit", "Comunas", new { idComuna = item.IdComuna })" class="btn btn-default btn-sm">
@@ -57,9 +57,6 @@
     </div>
 </div>
 
-<script type="text/javascript">
-    var urlDataTableSpanish = "@Url.Content("~/Content/dataTable.Spanish.js")";
-</script>
 <script type="text/javascript">
     var urlComunaDelete = "@Url.Action("Delete", "Comunas")";
 </script>

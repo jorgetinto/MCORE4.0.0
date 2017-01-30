@@ -1,9 +1,9 @@
-﻿@model Llacruz.Cobranza.Core.Application.Dto.PanelParametros.RolPersonaDto
+﻿@model Cobranza.Core.Application.Dto.PanelParametros.RolPersonaDto
 
 <div class="form-group">
     <div class="col-sm-12">
         @Html.LabelFor(m => m.IdRolPersona)
-        @Html.TextBoxFor(m => m.IdRolPersona, new { @class = "form-control", disabled = "disabled", maxlength = "4" })
+        @Html.TextBoxFor(m => m.IdRolPersona, new { @class = "form-control input-sm", disabled = "disabled", maxlength = "4" })
         @Html.ValidationMessageFor(m => m.IdRolPersona, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
     <div class="col-sm-12"></div>
@@ -11,7 +11,7 @@
 <div class="form-group">
     <div class="col-sm-12">
         @Html.LabelFor(m => m.Nombre)
-        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control", maxlength = "100" })
+        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control input-sm", maxlength = "100" })
         @Html.ValidationMessageFor(m => m.Nombre, null, new { @class = "label label-danger textwhite col-sm-12" })
     </div>
 </div>

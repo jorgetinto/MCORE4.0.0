@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Llacruz.Cobranza.Core.Application.Dto.PanelParametros.CondicionPagoDto>
+﻿@model IEnumerable<Cobranza.Core.Application.Dto.PanelParametros.CondicionPagoDto>
 
 <div class="panel panel-default">
     <div class="panel-heading">Listado condiciones de pagos</div>
@@ -48,9 +48,6 @@
     </div>
 </div>
 
-<script type="text/javascript">
-    var urlDataTableSpanish = "@Url.Content("~/Content/dataTable.Spanish.js")";
-</script>
 <script type="text/javascript">
     var urlCondicionPagoDelete = "@Url.Action("Delete", "CondicionPagos")";
 </script>
