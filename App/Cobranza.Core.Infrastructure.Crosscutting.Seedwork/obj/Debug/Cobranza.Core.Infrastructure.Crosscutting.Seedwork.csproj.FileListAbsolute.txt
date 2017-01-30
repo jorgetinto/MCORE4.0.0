@@ -6,3 +6,7 @@ C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Cr
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Infrastructure.Crosscutting.Seedwork\obj\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb

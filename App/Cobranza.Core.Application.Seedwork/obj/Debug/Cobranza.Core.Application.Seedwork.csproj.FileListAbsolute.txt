@@ -6,3 +6,7 @@ C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedw
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\bin\Debug\Cobranza.Core.Application.Seedwork.pdb
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.Application.Seedwork.dll
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.Application.Seedwork.pdb
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\bin\Debug\Cobranza.Core.Application.Seedwork.dll
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\bin\Debug\Cobranza.Core.Application.Seedwork.pdb
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.Application.Seedwork.dll
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.Application.Seedwork\obj\Debug\Cobranza.Core.Application.Seedwork.pdb

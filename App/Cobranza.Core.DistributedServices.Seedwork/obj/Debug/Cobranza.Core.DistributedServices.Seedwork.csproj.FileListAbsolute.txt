@@ -12,3 +12,10 @@ C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServic
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\obj\Debug\Cobranza.Core.DistributedServices.Seedwork.csprojResolveAssemblyReference.cache
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\obj\Debug\Cobranza.Core.DistributedServices.Seedwork.dll
 C:\Users\AlphaLobo\Desktop\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\obj\Debug\Cobranza.Core.DistributedServices.Seedwork.pdb
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\bin\Debug\Cobranza.Core.DistributedServices.Seedwork.dll
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\bin\Debug\Cobranza.Core.DistributedServices.Seedwork.pdb
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.dll
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\bin\Debug\Cobranza.Core.Infrastructure.Crosscutting.Seedwork.pdb
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\obj\Debug\Cobranza.Core.DistributedServices.Seedwork.csprojResolveAssemblyReference.cache
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\obj\Debug\Cobranza.Core.DistributedServices.Seedwork.dll
+D:\Proyectos\Estudio\AspNet\MCORE4.0.0\App\Cobranza.Core.DistributedServices.Seedwork\obj\Debug\Cobranza.Core.DistributedServices.Seedwork.pdb
