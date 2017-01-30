@@ -43,10 +43,12 @@
                     $('#ModalError').modal('show');
 
                 }
-
             }
 
         });
     });
 
+    $("#modalOk").click(function () {
+        $(location).attr('href', 'index');
+    });
 });

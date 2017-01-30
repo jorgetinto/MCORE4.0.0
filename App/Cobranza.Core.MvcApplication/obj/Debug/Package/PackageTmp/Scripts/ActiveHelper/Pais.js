@@ -1,0 +1,5 @@
+﻿$(function () {
+    MarcarParametroActual("Pais");
+
+    RefrescarListadoPaises();
+})

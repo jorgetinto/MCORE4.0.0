@@ -1,0 +1,91 @@
+﻿/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.glyphicon-g{
+    top:0 !important;	
+}
+
+.btn-man {
+    width: 100%;
+}
+
+.displyBlock {
+display:block;
+margin-right:8%;
+}
+
+.hidden {
+    display:none !important;
+}
+
+.gi-2x{font-size: 2em !important;}
+.gi-3x{font-size: 3em !important;}
+.gi-4x{font-size: 4em !important;}
+.gi-5x{font-size: 5em !important;}
+
+.topParametro {
+    padding-top: 1% !important;
+}
+
+.wrapTextTd {
+ word-wrap: break-word !important;
+ min-width: 60px !important;
+ white-space:normal !important;
+ max-width: 120px !important;
+}
+
+/* dark them */
+
+.topH2 {
+    margin-top:-3% !important;
+}
+
+.textwhite {
+color:#000 !important;
+}
+
+.InicioHeight {
+    height:160px !important;
+    border:5px solid #fff !important;
+}
+
+.InicioMargenIcon {
+    margin-top:5% !important;
+}
+
+.InicioMargenH4 {
+   margin-top:2% !important;
+}
+
+.InicioMargenLeft {
+    margin-left:1% !important;
+}
+
+.decorativeNone {
+    text-decoration: none !important;
+}
+
+.alert-warning:hover {
+    background-color: #f77b07 !important;
+}

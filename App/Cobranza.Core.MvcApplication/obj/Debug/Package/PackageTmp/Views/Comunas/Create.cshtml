@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Crear Parámetro Comuna";
+    Layout = "~/Views/Shared/PanelParametros/_ParametrosLayout.cshtml";
+}
+
+<script src="@Url.Content("~/Scripts/ActiveHelper/Comuna.js")" type="text/javascript"></script>
+
+<div class="panel well bs-component" id="NuevaComuna">
+    <div class="panel-body">
+        <div class="container-fluid">
+            <h4>Nueva Comuna</h4>
+            <div class="row">
+                <div id="ComunaCreate">
+                    @Html.Partial("~/Views/Shared/Comunas/_Create.cshtml")
+                </div>
+                <div class="col-md-12">
+                    <hr />
+                </div>
+                <div class="col-md-12" id="ComunaList">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

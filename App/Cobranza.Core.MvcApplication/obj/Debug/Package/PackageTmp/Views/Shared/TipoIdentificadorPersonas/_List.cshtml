@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Cobranza.Core.Application.Dto.PanelParametros.TipoIdentificadorPersonaDto>
+
+<div class="panel panel-default">
+    <div class="panel-heading">Listado de tipos de roles de personas</div>
+        <div class="panel-body ">
+            <div class="table-inverse table-responsive">
+                <table class="table table-bordered table-hover " id="TableTipoIdentificadorPersona">
+                    <thead>
+                        <tr>
+                            <th class="col-lg-2">Pa&iacute;s</th>
+                            <th class="col-lg-1">Identificador</th>
+                            <th class="col-lg-3">Nombre</th>
+                            <th class="col-lg-3">Descripción</th>
+                            <th class="col-lg-3">Acciones</th>
+</tr>
+                    </thead>
+                    <tbody>
+
+                        @if (Model == null || !Model.Any())
+                        {
+                            <tr>
+                                <td colspan="5" class="text-center">No hay tipos de roles de personas definidos.</td>
+                            </tr>
+                        }
+                        else
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="wrapTextTd">@item.NombrePais</td>
+                                    <td class="wrapTextTd">@item.IdTipoIdentificadorPersona</td>
+                                    <td class="wrapTextTd">@item.Nombre</td>
+                                    <td class="wrapTextTd">@item.Descripcion</td>
+
+
+                                    <td class=" wrapTextTd text-center">
+                                        <a href="@Url.Action("Edit", "TipoIdentificadorPersonas", new { idTipoIdentificadorPersona = item.IdTipoIdentificadorPersona })" class="btn btn-default btn-sm">
+                                            <span class="glyphicon glyphicon-wrench"></span>
+                                            Editar
+                                        </a>
+                                        <a id="deleteItem" class="deleteItem btn btn-danger btn-sm" data-target="#basic" data-toggle="modal"
+                                                                                                    data-codigopais="@item.CodigoPais"
+                                                                                                    data-id="@item.IdTipoIdentificadorPersona"
+                                                                                                    data-nombre="@item.Nombre"
+                                                                                                    data-descripcion="@item.Descripcion">
+                                            <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                                            Eliminar
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var urlTipoIdPersonaDelete = "@Url.Action("Delete", "TipoIdentificadorPersonas")";
+</script>
+
+<script src="@Url.Content("~/Scripts/Shared/PanelParametros/TipoIdentificadorPersona/_List.js")" type="text/javascript"></script>
+
+<script src="@Url.Content("~/Scripts/Shared/PanelParametros/TipoIdentificadorPersona/_Delete.js")" type="text/javascript"></script>

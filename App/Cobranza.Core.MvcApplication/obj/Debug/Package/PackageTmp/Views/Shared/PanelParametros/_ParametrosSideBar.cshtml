@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Cobranza.Core.Application.Dto.PanelParametros.ParametroDto>
+
+<script type="text/javascript">
+    var urlDataTableSpanish = "@Url.Content("~/Content/dataTable.Spanish.js")";
+</script>
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">Parámetros</div>
+    <div class="panel-body">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Buscador de Parámetros" id="Search">
+            <div class="input-group-btn">
+                <span class="btn btn-default glyphicon glyphicon-search glyphicon-g"></span>
+            </div>
+        </div>
+        <hr />
+        <div class="list-group table-of-contents text-center">
+            <div id="SearchableContainer">
+                    @*@if (Model == null || !Model.Any())
+                    {
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p>No hay par&aacute;metros definidos.</p>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        foreach (var item in Model)
+                        {
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <a href="@Url.Action(@item.UrlIndex)" class="list-group-item" id="@item.IdElementoUI">
+                                        @item.Nombre
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    }*@
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="@Url.Action("Index", "Rubros")" class="list-group-item" id="Rubro">
+                            Rubros
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="@Url.Action("Index", "CondicionPagos")" class="list-group-item" id="CondicionPagos">
+                            Condición de Pago
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="@Url.Action("Index", "RolPersonas")" class="list-group-item" id="RolPersona">
+                            Rol Persona
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="@Url.Action("Index", "TipoIdentificadorPersonas")" class="list-group-item" id="TipoIdentificadorPersona">
+                            Tipo Identificador Persona
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="@Url.Action("Index", "Paises")" class="list-group-item" id="Pais">
+                            Pa&iacute;s
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="@Url.Action("Index", "Regiones")" class="list-group-item" id="Region">
+                            Regi&oacute;n
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="@Url.Action("Index", "Comunas")" class="list-group-item" id="Comuna">
+                            Comuna
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 

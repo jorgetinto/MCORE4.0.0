@@ -1,0 +1,32 @@
+﻿@{
+    Layout = "~/Views/Shared/PanelParametros/_ParametrosLayout.cshtml";
+    ViewBag.Title = "Parámetro Comuna";
+}
+
+<script src="@Url.Content("~/Scripts/ActiveHelper/Comuna.js")" type="text/javascript"></script>
+
+<div class="panel well bs-component" id="PanelComuna">
+    <div class="panel-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-5 displyBlock"><h4>Mantenedor de Comuna</h4></div>
+                <div class="col-md-3">
+                    <a href="@Url.Action("Create", "Comunas")" class="btn btn-success btn-man" id="CrearComuna">
+                        <span class="glyphicon glyphicon-plus"></span>
+                        Nuevo Valor
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="@Url.Action("Index", "PanelParametros")" class="btn btn-danger btn-man" id="Cancelar">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        Cerrar
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="ComunaList">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+﻿@model Cobranza.Core.Application.Dto.PanelParametros.RubroDto
+
+<div class="form-group">
+    <div class="col-sm-12">
+        @Html.LabelFor(m => m.IdRubro)
+        @Html.TextBoxFor(m => m.IdRubro, new { @class = "form-control input-sm", disabled = "disabled", maxlength = "4" })
+        @Html.ValidationMessageFor(m => m.IdRubro, null, new { @class = "label label-danger textwhite col-sm-12" })
+    </div>
+    <div class="col-sm-12"></div>
+</div>
+<div class="form-group">
+    <div class="col-sm-12">
+        @Html.LabelFor(m => m.Nombre)
+        @Html.TextBoxFor(m => m.Nombre, new { @class = "form-control input-sm", maxlength = "100" })
+        @Html.ValidationMessageFor(m => m.Nombre, null, new { @class = "label label-danger textwhite col-sm-12" })
+    </div>
+</div>
+
+<div class="form-group col-sm-12"></div>
+<div class="form-group">
+    <div class="col-sm-6">
+        <a id="GuardarRubro" class="btn btn-success col-lg-5 col-xs-5 btn-man" href="" data-toggle="modal">
+            <span class="glyphicon glyphicon-ok"></span>
+            Guardar
+        </a>
+    </div>
+    <div class="col-sm-6">
+        <a class="btn btn-danger col-lg-5 col-xs-5 btn-man" href="@Url.Action("Index", "Rubros")">
+            <span class="glyphicon glyphicon-remove"></span>
+            Cancelar
+        </a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var urlRubroEdit = "@Url.Action("Edit", "Rubros")";
+</script>
+
+<script src="@Url.Content("~/Scripts/Shared/PanelParametros/Rubro/_Edit.js")" type="text/javascript"></script>
+
+<script src="@Url.Content("~/Scripts/Shared/PanelParametros/Rubro/_ClearValidate.js")" type="text/javascript"></script>
